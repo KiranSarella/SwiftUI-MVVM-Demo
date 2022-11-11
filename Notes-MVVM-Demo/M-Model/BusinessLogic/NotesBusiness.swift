@@ -20,5 +20,6 @@ class NotesBusiness {
         return notes
     }
     
-   
+    // note detail operations
+    // ..
 }

@@ -22,7 +22,9 @@
 		9FAE6427291E5321009C6998 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE6426291E5321009C6998 /* Network.swift */; };
 		9FAE6429291E58E3009C6998 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE6428291E58E3009C6998 /* README.md */; };
 		9FAE642B291E5912009C6998 /* folder-structure.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE642A291E5912009C6998 /* folder-structure.png */; };
-		9FAE642D291E5918009C6998 /* UI.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE642C291E5918009C6998 /* UI.png */; };
+		9FAE6430291E5C1A009C6998 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE642F291E5C1A009C6998 /* NoteDetailView.swift */; };
+		9FAE6432291E5C3F009C6998 /* NoteDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE6431291E5C3F009C6998 /* NoteDetailVM.swift */; };
+		9FAE6434291E5C77009C6998 /* UI.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE6433291E5C77009C6998 /* UI.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +67,10 @@
 		9FAE6426291E5321009C6998 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		9FAE6428291E58E3009C6998 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9FAE642A291E5912009C6998 /* folder-structure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-structure.png"; sourceTree = "<group>"; };
-		9FAE642C291E5918009C6998 /* UI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UI.png; sourceTree = "<group>"; };
 		9FAE642E291E5A2E009C6998 /* MVVM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MVVM.png; sourceTree = "<group>"; };
+		9FAE642F291E5C1A009C6998 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		9FAE6431291E5C3F009C6998 /* NoteDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVM.swift; sourceTree = "<group>"; };
+		9FAE6433291E5C77009C6998 /* UI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UI.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,7 @@
 			children = (
 				9FAE6428291E58E3009C6998 /* README.md */,
 				9FAE642E291E5A2E009C6998 /* MVVM.png */,
-				9FAE642C291E5918009C6998 /* UI.png */,
+				9FAE6433291E5C77009C6998 /* UI.png */,
 				9FAE642A291E5912009C6998 /* folder-structure.png */,
 				9FAE63E4291E4B8D009C6998 /* Notes-MVVM-Demo */,
 				9FAE63F6291E4B8F009C6998 /* Notes-MVVM-DemoTests */,
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAE6412291E4C7F009C6998 /* NotesList.swift */,
+				9FAE642F291E5C1A009C6998 /* NoteDetailView.swift */,
 				9FAE6421291E5096009C6998 /* Readme.md */,
 			);
 			path = "V-View";
@@ -180,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAE6417291E4F23009C6998 /* NotesListVM.swift */,
+				9FAE6431291E5C3F009C6998 /* NoteDetailVM.swift */,
 				9FAE6422291E50E3009C6998 /* Readme.md */,
 			);
 			path = "VM-ViewModel";
@@ -324,11 +330,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FAE642D291E5918009C6998 /* UI.png in Resources */,
 				9FAE6429291E58E3009C6998 /* README.md in Resources */,
 				9FAE642B291E5912009C6998 /* folder-structure.png in Resources */,
 				9FAE63EE291E4B8F009C6998 /* Preview Assets.xcassets in Resources */,
 				9FAE63EA291E4B8F009C6998 /* Assets.xcassets in Resources */,
+				9FAE6434291E5C77009C6998 /* UI.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAE6430291E5C1A009C6998 /* NoteDetailView.swift in Sources */,
 				9FAE6418291E4F23009C6998 /* NotesListVM.swift in Sources */,
 				9FAE63E6291E4B8D009C6998 /* Notes_MVVM_DemoApp.swift in Sources */,
 				9FAE6427291E5321009C6998 /* Network.swift in Sources */,
@@ -361,6 +368,7 @@
 				9FAE641C291E4FE7009C6998 /* NoteDetail.swift in Sources */,
 				9FAE6425291E5318009C6998 /* LocalStorage.swift in Sources */,
 				9FAE6420291E505C009C6998 /* NotesBusiness.swift in Sources */,
+				9FAE6432291E5C3F009C6998 /* NoteDetailVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
