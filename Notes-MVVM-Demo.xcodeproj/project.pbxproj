@@ -66,6 +66,7 @@
 		9FAE6428291E58E3009C6998 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9FAE642A291E5912009C6998 /* folder-structure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-structure.png"; sourceTree = "<group>"; };
 		9FAE642C291E5918009C6998 /* UI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UI.png; sourceTree = "<group>"; };
+		9FAE642E291E5A2E009C6998 /* MVVM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MVVM.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAE6428291E58E3009C6998 /* README.md */,
+				9FAE642E291E5A2E009C6998 /* MVVM.png */,
 				9FAE642C291E5918009C6998 /* UI.png */,
 				9FAE642A291E5912009C6998 /* folder-structure.png */,
 				9FAE63E4291E4B8D009C6998 /* Notes-MVVM-Demo */,
